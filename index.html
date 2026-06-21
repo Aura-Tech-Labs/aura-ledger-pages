@@ -41,7 +41,7 @@
         </div>
         <div class="bg-gray-900 border border-emerald-900 rounded-lg px-4 py-2">
           <span class="text-gray-500 block text-xs uppercase tracking-widest mb-1">Aggiornato</span>
-          <span class="text-emerald-400 font-bold text-sm">2026-06-21 21:29:38 UTC</span>
+          <span class="text-emerald-400 font-bold text-sm">2026-06-21 21:36:13 UTC</span>
         </div>
       </div>
     </div>
@@ -5617,7 +5617,7 @@
   </footer>
 </div>
 <script>
-const HASHES = ["c761555a05fa99da48453aa07b6305f7a051fb6ea787adf904878438203660d0","4db7710f7799047bf6f88f492c596e3a19244793131aae174bbde84003db7aa6","ed782842acafdc5f48812ebdcf8b126dc8243a7200105b103d115307a263ac54","d2b58f0988980d65f9ae2fc03d94178b929e912a1a4b7ee94045f434956cc722"];
+const HASHES = ["c761555a05fa99da48453aa07b6305f7a051fb6ea787adf904878438203660d0","ed782842acafdc5f48812ebdcf8b126dc8243a7200105b103d115307a263ac54","d2b58f0988980d65f9ae2fc03d94178b929e912a1a4b7ee94045f434956cc722"];
 async function digest(s) {
   const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
   return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('');
