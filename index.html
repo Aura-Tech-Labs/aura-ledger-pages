@@ -41,7 +41,7 @@
         </div>
         <div class="bg-gray-900 border border-emerald-900 rounded-lg px-4 py-2">
           <span class="text-gray-500 block text-xs uppercase tracking-widest mb-1">Aggiornato</span>
-          <span class="text-emerald-400 font-bold text-sm">2026-06-22 12:58:07 UTC</span>
+          <span class="text-emerald-400 font-bold text-sm">2026-06-22 12:58:34 UTC</span>
         </div>
       </div>
     </div>
@@ -8884,7 +8884,7 @@
   </footer>
 </div>
 <script>
-const HASHES = ["ed782842acafdc5f48812ebdcf8b126dc8243a7200105b103d115307a263ac54","d2b58f0988980d65f9ae2fc03d94178b929e912a1a4b7ee94045f434956cc722","3de2e322d5cdee2e9b9b903924f3bc8a2d651ee7a6f7278fbeec9882cf890817","0677cd4addb2bb485b88dc5a955bcb0d435af07e9afad8198a6e84511866c194","4634366f442bb93cd0bbb4a6625442e245bfb340bc23f190abd3d2eeada885ab","626af0c48c86f7e6dd7e536388c96e55fafe0d199a64a9da0737ac1fedcb09fc"];
+const HASHES = ["ed782842acafdc5f48812ebdcf8b126dc8243a7200105b103d115307a263ac54","d2b58f0988980d65f9ae2fc03d94178b929e912a1a4b7ee94045f434956cc722","3de2e322d5cdee2e9b9b903924f3bc8a2d651ee7a6f7278fbeec9882cf890817","626af0c48c86f7e6dd7e536388c96e55fafe0d199a64a9da0737ac1fedcb09fc"];
 async function digest(s) {
   const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
   return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('');
